@@ -1,43 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<link rel="stylesheet"media="screen and (min-width: 600px)"href="widescreen.css">
+	<link rel="stylesheet"media="screen and (max-width: 900px)"href="smallscreen.css">
 	<title></title>
+
 	<style>
-		.unOrderedList {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		background-color: #333;
+		#greenColorID {
+			color:green
 		}
-
-		#list {
-		float: left;
-		}
-
-		#list a {
-		display: block;
-		color: white;
-		text-align: center;
-		padding: 14px 16px;
-		text-decoration: none;
-		}
-
-		#list a:hover {
-		background-color: #111;
-		}
-
-		#letterDesign {
-			color:blue;
-		}
-
-		table, th, td {
-		border: 1px solid black;
-		border-collapse: collapse;
-		padding: 5px;
-		text-align: left;    
-		}
-
 	</style>
 </head>
 <body>
@@ -46,7 +18,7 @@
 
 		<!-- 7.Menu section -->
 		<ul class="unOrderedList">
-			<li id="list"> <a href="https://gadshiva645.github.io/"><img src="https://us.123rf.com/450wm/subhanbaghirov/subhanbaghirov1801/subhanbaghirov180100001/92920883-menu-icon-for-simple-flat-style-ui-design-.jpg?ver=6" width="50px" height="50px"></a></li>
+			<li id="list"> <a href="./profile.html"><img src="https://us.123rf.com/450wm/subhanbaghirov/subhanbaghirov1801/subhanbaghirov180100001/92920883-menu-icon-for-simple-flat-style-ui-design-.jpg?ver=6" width="50px" height="50px"></a></li>
 			<li id="list"><a href="#education">Education</a></li> 
 			<li id="list"><a href="#workIntern">Work Experience/Internships</a></li>
 			<li id="list"><a href="#programmingSkills">Programming Skills</a></li>
@@ -58,7 +30,7 @@
 		<!-- 1.Basic profile information section -->
 		<h1>Shiva Gaddam</h1>
 		<h1>Computer Science</h1>
-		<img src="./profilePic.jpg" wdith="100px" height="100px">
+		<img src="./profilePic.jpg">
 
 		<!-- 2.Education summary section -->
 		<h3 id="education">Education</h3>
@@ -78,8 +50,8 @@
 			<li><span id="letterDesign">Javascript</span>, 3 years</li>
 			<li>Java, 3 years</li>
 			<li><span id="letterDesign">Android</span>, 3 years </li>
-			<li>XML, 3 years </li>
-			<li>HTML, 3 years </li>
+			<li style="color:red">XML, 3 years </li>
+			<li id="greenColorID">HTML, 3 years </li>
 			<li>CSS, 3 years </li>
 			<li>MySQL, 3 years </li>
 			<li><span id="letterDesign">Node.js</span>, 1.5 years</li>
@@ -102,7 +74,7 @@
 		<!-- 8.My Projects in this course -->
 		<h3 id="myProjects">My Projects</h3>
 		<ul>
-			<li><a href="https://gadshiva645.github.io/">link</a></li>
+			<li><a href="./profile.html">link</a></li>
 		</ul>
 
 		<!-- Table Example -->
@@ -117,6 +89,7 @@
 
 		<!-- Form Example -->
 		<h3>Form Example</h3>
+		
 		<form>
 		First name:<br>
 		<input type="text" name="firstname"><br>
@@ -136,3 +109,5 @@
 
 </body>
 </html>
+
+
