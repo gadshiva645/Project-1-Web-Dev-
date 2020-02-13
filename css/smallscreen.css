@@ -1,0 +1,77 @@
+
+.unOrderedList {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+#list {
+	float: left;
+}
+
+#list a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#list a:hover {
+	background-color: #111;
+}
+
+#letterDesign {
+	color:blue;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	text-align: left;    
+}
+
+div {
+  padding: 20px;
+}
+
+span {
+	color:red;
+}
+
+ul {
+	padding: 20px;
+}
+
+li {
+	font-family: verdana;
+}
+
+img {
+	height:100px;
+	width:100px;
+}
+
+form {
+	width: 100%;
+}
+
+h1 {
+	font-family: verdana;
+	font-size:20px;
+	color: white;
+  	text-shadow: 2px 2px 4px #000000;
+}
+
+p {
+	font-family: verdana;
+}
+
+a:hover {
+ background-color: yellow;
+}
+
+
